@@ -184,6 +184,18 @@
             "required": false,
             "value": false,
             "selected": false
+        },
+        {
+            "id": "info_nav_bar_header",
+            "type": "boolean",
+            "format": "switch",
+            "label": "قائمة المعلومات العلوية",
+            "description": "بحال كنت تريد ازالة قائمة المعلومات العلوية عليك ازالة الصح عنها",
+            "labelHTML": null,
+            "icon": "sicon-toggle-off",
+            "value": true,
+            "selected": true,
+            "required": false
         }
     ],
     "components": [
