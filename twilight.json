@@ -184,33 +184,6 @@
             "required": false,
             "value": false,
             "selected": false
-        },
-        {
-            "id": "top_nav_sitting",
-            "type": "collection",
-            "format": "collection",
-            "label": "خيارات عرض القائمة العلوية بالصفحة",
-            "description": "هنا يمكنك تخصيص طريقة عرض القائمة العلوية في الصفحة",
-            "labelHTML": null,
-            "item_label": null,
-            "icon": "sicon-list-add",
-            "fields": [
-                {
-                    "id": "top_nav_sitting.is_top_nav",
-                    "type": "boolean",
-                    "format": "checkbox",
-                    "label": "اخفاء شريط المعلومات العلوي",
-                    "description": "بحال كنت تريد اخفاء شريط المعلومات ضمن القائمة العلوية",
-                    "labelHTML": null,
-                    "icon": "sicon-check-square",
-                    "value": true,
-                    "selected": false,
-                    "required": false
-                }
-            ],
-            "value": [],
-            "minLength": 1,
-            "maxLength": 5
         }
     ],
     "components": [
