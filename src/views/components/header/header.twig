@@ -11,8 +11,7 @@
       <div class="flex-1 flex items-center gap-4">
         {% if important_links %}
         <salla-menu source="footer" topnav></salla-menu>
-        {% endif %} {% if
-        theme.settings.get('top_nav_custmize.currency_change_top_nav') %} {% if
+        {% endif %} {% if theme.settings.get('currency_change_top_nav') %} {% if
         store.settings.is_multilingual or store.settings.currencies_enabled %}
         <div class="header-buttons flex items-center gap-2">
           <button
@@ -42,8 +41,7 @@
       </div>
 
       <!-- Center section: Store Name -->
-      {% if theme.settings.get('top_nav_custmize.store_name_top_nav') %} {% if
-      store.slogan %}
+      {% if theme.settings.get('store_name_top_nav') %} {% if store.slogan %}
       <h2 class="flex-1 text-center">{{ store.slogan }}</h2>
       {% else %}
       <h2 class="flex-1 text-center">{{ store.name }}</h2>
