@@ -198,43 +198,28 @@
             "required": false
         },
         {
-            "id": "top_nav_custmize",
-            "type": "collection",
-            "format": "collection",
-            "label": "خصائص قائمة المعلومات العلوية",
-            "description": "هنا يمكنك التحكم بخصائص مظهر قائمة التحكم العلوية",
+            "id": "store_name_top_nav",
+            "type": "boolean",
+            "format": "switch",
+            "label": "اسم الموقع في قائمة المعلومات العلوية",
+            "description": "في حال اردت ازالة اسم الموقع من مكان القائمة العلوية يمكنك الضفط هنا",
             "labelHTML": null,
-            "item_label": null,
-            "icon": "sicon-list-add",
-            "fields": [
-                {
-                    "id": "top_nav_custmize.store_name_top_nav",
-                    "type": "boolean",
-                    "format": "switch",
-                    "label": "اسم الموقع في قائمة المعلومات العلوية",
-                    "description": "في حال اردت ازالة اسم الموقع من مكان القائمة العلوية يمكنك الضفط هنا",
-                    "labelHTML": null,
-                    "icon": "sicon-toggle-off",
-                    "value": true,
-                    "selected": true,
-                    "required": false
-                },
-                {
-                    "id": "top_nav_custmize.currency_change_top_nav",
-                    "type": "boolean",
-                    "format": "switch",
-                    "label": "تفعيل خيار تغير العملة في الموقع",
-                    "description": "ازا كنت تريد ازالة خيار تغير العملة",
-                    "labelHTML": null,
-                    "icon": "sicon-toggle-off",
-                    "value": true,
-                    "selected": true,
-                    "required": false
-                }
-            ],
-            "value": [],
-            "minLength": null,
-            "maxLength": null
+            "icon": "sicon-toggle-off",
+            "value": true,
+            "selected": true,
+            "required": false
+        },
+        {
+            "id": "currency_change_top_nav",
+            "type": "boolean",
+            "format": "switch",
+            "label": "تفعيل خيار تغير العملة في الموقع",
+            "description": "ازا كنت تريد ازالة خيار تغير العملة",
+            "labelHTML": null,
+            "icon": "sicon-toggle-off",
+            "value": true,
+            "selected": true,
+            "required": false
         }
     ],
     "components": [
