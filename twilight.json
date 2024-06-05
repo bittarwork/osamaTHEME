@@ -807,6 +807,13 @@
                     ]
                 }
             ]
+        },
+        {
+            "key": "aa40662b-d490-444a-92f6-6cd3406b0cfd",
+            "title": "slim header",
+            "icon": "sicon-store",
+            "path": "header.slimHeader",
+            "fields": []
         }
     ],
     "support_url": "https://salla.com/",
