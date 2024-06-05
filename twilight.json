@@ -208,6 +208,18 @@
             "value": true,
             "selected": true,
             "required": false
+        },
+        {
+            "id": "currency_change_top_nav",
+            "type": "boolean",
+            "format": "switch",
+            "label": "تفعيل خيار تغير العملة في الموقع",
+            "description": "ازا كنت تريد ازالة خيار تغير العملة",
+            "labelHTML": null,
+            "icon": "sicon-toggle-off",
+            "value": true,
+            "selected": true,
+            "required": false
         }
     ],
     "components": [
