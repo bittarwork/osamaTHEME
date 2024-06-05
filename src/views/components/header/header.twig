@@ -20,8 +20,8 @@
 						<div class="header-buttons flex items-center gap-2">
 							<button type="button" onclick="salla.event.dispatch('localization::open')" class="btn--rounded-gray basis-0 flex items-center">
 								<span class="flag iti__flag iti__{{
-																																																																																																																																											                  user.language.country_code
-																																																																																																																																											                }} rounded-sm"></span>
+																																																																																																																																																																																								                  user.language.country_code
+																																																																																																																																																																																								                }} rounded-sm"></span>
 								<span class="mx-1.5">|</span>
 								<span>{{ currency.symbol }}</span>
 							</button>
@@ -69,19 +69,19 @@
 					<a class="navbar-brand" href="{{ store.url }}">
 						<img fetchpriority="high" width="100%" height="100%" loading="eager" src="{{ store.logo }}" alt="{{ store.name }} logo"/>
 					</a>
-					<custom-main-menu></custom-main-menu>
+					{% if theme.settings.get('navigation_links_main_header') %}
+						<custom-main-menu></custom-main-menu>
+
+					{% endif %}
 				</div>
 				<div class="flex items-center justify-end gap-4">
-					{% if theme.settings.get('navigation_links_main_header') %}
-						{% if user.type == 'user' %}
-							<salla-user-menu avatar-only show-header></salla-user-menu>
-						{% else %}
-							<button class="header-btn" aria-label="user-icon" onclick="salla.event.dispatch('login::open')">
-								<i class="header-btn__icon sicon-user-circle"></i>
-							</button>
-						{% endif %}
+					{% if user.type == 'user' %}
+						<salla-user-menu avatar-only show-header></salla-user-menu>
+					{% else %}
+						<button class="header-btn" aria-label="user-icon" onclick="salla.event.dispatch('login::open')">
+							<i class="header-btn__icon sicon-user-circle"></i>
+						</button>
 					{% endif %}
-
 					{% if theme.settings.get('cart_icon_in_main_header') %}
 						<salla-cart-summary class="ml-4 rtl:ml-[unset] rtl:mr-4">
 							<i slot="icon" class="header-btn__icon icon sicon-shopping-bag"></i>
