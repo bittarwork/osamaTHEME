@@ -768,6 +768,7 @@ select{background-image:url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/
 .pt-6{padding-top:1.5rem}
 .pt-8{padding-top:2rem}
 .text-center{text-align:center}
+.text-right{text-align:right}
 .text-start{text-align:left}
 .text-end{text-align:right}
 .text-2xl{font-size:1.5rem;line-height:2rem}
