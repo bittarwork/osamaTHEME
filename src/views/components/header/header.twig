@@ -1,8 +1,10 @@
 {# | Variable | Type | Description |
 |------------------|---------|---------------------------------| | cart | object
 | | cart.items_count | int | | cart.total | string | Formatted total ex: "١٠٠
-ر.س" | #} {% set important_links = theme.settings.get('important_links') %}
-
+ر.س" | #} {% set important_links = theme.settings.get('important_links') %} {%
+if store.settings.top_nav_sitting.is_top_nav %}
+<h2>sadads</h2>
+{% else %}
 <header class="store-header">
   {# Top Nav #}
   <div class="top-navbar">
@@ -43,7 +45,7 @@
     </div>
   </div>
 
-  {# Main Nav #}
+  {% endif %} {# Main Nav #}
   <div id="mainnav" class="main-nav-container shadow-default bg-white">
     <div class="inner bg-inherit">
       <div class="container">
