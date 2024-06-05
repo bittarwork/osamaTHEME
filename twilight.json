@@ -213,12 +213,24 @@
             "id": "currency_change_top_nav",
             "type": "boolean",
             "format": "switch",
-            "label": "تفعيل خيار تغير العملة في الموقع",
+            "label": "تفعيل خيار تغير العملة في القائمة العولة للموقع",
             "description": "ازا كنت تريد ازالة خيار تغير العملة",
             "labelHTML": null,
             "icon": "sicon-toggle-off",
             "value": true,
             "selected": true,
+            "required": false
+        },
+        {
+            "id": "contcat_information_top_nav",
+            "type": "boolean",
+            "format": "switch",
+            "label": "تفعيل معلومات التواصل مع الخدمات في القائمة العلوية قي الموقع",
+            "description": null,
+            "labelHTML": null,
+            "icon": "sicon-toggle-off",
+            "value": true,
+            "selected": false,
             "required": false
         }
     ],
