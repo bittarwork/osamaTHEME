@@ -256,6 +256,18 @@
             "value": true,
             "selected": true,
             "required": false
+        },
+        {
+            "id": "important_links_footer",
+            "type": "boolean",
+            "format": "switch",
+            "label": "تفعيل الروابط المهمة في قائمة اخر الصفحة",
+            "description": null,
+            "labelHTML": null,
+            "icon": "sicon-toggle-off",
+            "value": true,
+            "selected": true,
+            "required": false
         }
     ],
     "components": [
