@@ -4,7 +4,7 @@
 ر.س" | #} {% set important_links = theme.settings.get('important_links') %}
 
 <header class="store-header">
-  {# Top Nav #}
+  {# Top Nav #} {% if theme.settings.get('info_nav_bar_header') %}
   <div class="top-navbar">
     <div class="container flex justify-between items-center">
       <!-- Left section: Footer Menu and Language & Currency Component -->
@@ -52,8 +52,7 @@
       <salla-contacts is-header class="flex-1 text-right"></salla-contacts>
     </div>
   </div>
-
-  {# Main Nav #}
+  {% endif %} {# Main Nav #}
   <div id="mainnav" class="main-nav-container shadow-default bg-white">
     <div class="inner bg-inherit">
       <div class="container">
