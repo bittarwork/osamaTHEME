@@ -196,6 +196,18 @@
             "value": true,
             "selected": true,
             "required": false
+        },
+        {
+            "id": "store_name_top_nav",
+            "type": "boolean",
+            "format": "switch",
+            "label": "اسم الموقع في قائمة المعلومات العلوية",
+            "description": "في حال اردت ازالة اسم الموقع من مكان القائمة العلوية يمكنك الضفط هنا",
+            "labelHTML": null,
+            "icon": "sicon-toggle-off",
+            "value": true,
+            "selected": true,
+            "required": false
         }
     ],
     "components": [
