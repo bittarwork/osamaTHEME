@@ -40,19 +40,20 @@
         </button>
         {% endif %}
       </div>
+
+      <!-- Center section: Store Name -->
       {% if theme.settings.get('top_nav_custmize.store_name_top_nav') %} {% if
       store.slogan %}
       <h2 class="flex-1 text-center">{{ store.slogan }}</h2>
       {% else %}
       <h2 class="flex-1 text-center">{{ store.name }}</h2>
-
       {% endif %} {% endif %}
-      <!-- Center section: Store Name -->
 
       <!-- Right section: Contacts -->
       <salla-contacts is-header class="flex-1 text-right"></salla-contacts>
     </div>
   </div>
+
   {% endif %} {# Main Nav #}
   <div id="mainnav" class="main-nav-container shadow-default bg-white">
     <div class="inner bg-inherit">
