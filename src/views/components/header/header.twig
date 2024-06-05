@@ -10,10 +10,8 @@
       <div class="flex-1 flex items-center gap-2">
         {# Footer Menu #} {% if important_links %}
         <salla-menu source="footer" topnav></salla-menu>
-        {% endif %}
-        <h2>ads</h2>
-        {# Language & Currency Component #} {% if store.settings.is_multilingual
-        or store.settings.currencies_enabled %}
+        {% endif %} {# Language & Currency Component #} {% if
+        store.settings.is_multilingual or store.settings.currencies_enabled %}
         <div class="header-buttons">
           <button
             type="button"
