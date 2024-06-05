@@ -39,14 +39,13 @@
         </button>
         {% endif %}
       </div>
-
-      <!-- Center section: Store Name -->
-      {% if store.slogan %}
+      {% if theme.settings.get('store_name_top_nav') %} {% if store.slogan %}
       <h2 class="flex-1 text-center">{{ store.slogan }}</h2>
       {% else %}
       <h2 class="flex-1 text-center">{{ store.name }}</h2>
 
-      {% endif %}
+      {% endif %} {% endif %}
+      <!-- Center section: Store Name -->
 
       <!-- Right section: Contacts -->
       <salla-contacts is-header class="flex-1 text-right"></salla-contacts>
