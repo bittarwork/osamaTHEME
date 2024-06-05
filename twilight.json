@@ -230,7 +230,7 @@
             "labelHTML": null,
             "icon": "sicon-toggle-off",
             "value": true,
-            "selected": false,
+            "selected": true,
             "required": false
         }
     ],
