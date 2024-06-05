@@ -232,6 +232,30 @@
             "value": true,
             "selected": true,
             "required": false
+        },
+        {
+            "id": "navigation_links_main_header",
+            "type": "boolean",
+            "format": "switch",
+            "label": "تفعيل قوائم التنقل ضمن الموقع ضمن القائمة الرئيسية",
+            "description": null,
+            "labelHTML": null,
+            "icon": "sicon-toggle-off",
+            "value": true,
+            "selected": true,
+            "required": false
+        },
+        {
+            "id": "cart_icon_in_main_header",
+            "type": "boolean",
+            "format": "switch",
+            "label": "اظهار سلة التسوق ضمن القائمة الرئيسية",
+            "description": null,
+            "labelHTML": null,
+            "icon": "sicon-toggle-off",
+            "value": true,
+            "selected": true,
+            "required": false
         }
     ],
     "components": [
