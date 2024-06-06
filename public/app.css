@@ -6150,7 +6150,6 @@ lite-youtube.lyt-activated > .lty-playbtn {
 .ltr\:lg\:ml-8:where([dir="ltr"], [dir="ltr"] *){margin-left:2rem}
 .ltr\:lg\:mr-8:where([dir="ltr"], [dir="ltr"] *){margin-right:2rem}
 .ltr\:lg\:pl-10:where([dir="ltr"], [dir="ltr"] *){padding-left:2.5rem}
-.ltr\:lg\:pl-20:where([dir="ltr"], [dir="ltr"] *){padding-left:5rem}
 .ltr\:lg\:pr-20:where([dir="ltr"], [dir="ltr"] *){padding-right:5rem}}
 @media (min-width: 480px){
 .ltr\:xs\:right-5:where([dir="ltr"], [dir="ltr"] *){right:1.25rem}}
@@ -6200,7 +6199,6 @@ lite-youtube.lyt-activated > .lty-playbtn {
 .rtl\:lg\:ml-8:where([dir="rtl"], [dir="rtl"] *){margin-left:2rem}
 .rtl\:lg\:mr-8:where([dir="rtl"], [dir="rtl"] *){margin-right:2rem}
 .rtl\:lg\:pl-20:where([dir="rtl"], [dir="rtl"] *){padding-left:5rem}
-.rtl\:lg\:pr-10:where([dir="rtl"], [dir="rtl"] *){padding-right:2.5rem}
-.rtl\:lg\:pr-20:where([dir="rtl"], [dir="rtl"] *){padding-right:5rem}}
+.rtl\:lg\:pr-10:where([dir="rtl"], [dir="rtl"] *){padding-right:2.5rem}}
 @media (min-width: 480px){
 .rtl\:xs\:left-5:where([dir="rtl"], [dir="rtl"] *){left:1.25rem}}

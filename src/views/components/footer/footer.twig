@@ -42,15 +42,20 @@
 			</div>
 
 			<!-- Pages Links Section -->
-			<div class="lg:col-span-2">
-				<h3>{{ trans('blocks.footer.pages_links') }}</h3>
-				<salla-menu source="footer"></salla-menu>
-			</div>
-
+			{% if theme.settings.get('important_links_footer') %}
+				<div class="lg:col-span-2">
+					<h3>{{ trans('blocks.footer.pages_links') }}</h3>
+					<salla-menu source="footer"></salla-menu>
+				</div>
+			{% endif %}
 			<!-- Contact Section -->
-			<div class="lg:col-span-2">
-				<salla-contacts></salla-contacts>
-			</div>
+			{% if theme.settings.get('conttact_information_footer') %}
+				<div class="lg:col-span-2">
+					<salla-contacts></salla-contacts>
+				</div>
+			{% endif %}
+
+
 		</div>
 	</div>
 	<span class="hidden bottom-2 rtl:pl-24 ltr:pr-24 md:grid-cols-3"></span>
