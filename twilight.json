@@ -902,6 +902,13 @@
                     ]
                 }
             ]
+        },
+        {
+            "key": "ba793a1b-0e57-4764-b696-0c9ba7062553",
+            "title": "بانر فيديو",
+            "icon": "sicon-store",
+            "path": "home.video-banner",
+            "fields": []
         }
     ],
     "support_url": "https://salla.com/",
