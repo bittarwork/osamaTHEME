@@ -907,7 +907,7 @@
             "key": "1b1698bd-3090-42ac-885a-848ceff54f13",
             "title": "بانر مع فيديو",
             "icon": "sicon-youtube2",
-            "path": "homw.videoBanner",
+            "path": "home.videoBanner",
             "fields": [
                 {
                     "id": "video_banar_title",
