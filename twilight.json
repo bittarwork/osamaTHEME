@@ -948,11 +948,11 @@
                     "labelHTML": null,
                     "placeholder": "Placeholder text ..",
                     "icon": "sicon-format-text-alt",
-                    "value": null,
+                    "value": "https://www.apple.com/105/media/ww/ipad-pro/2022/08087f4b-7539-4b1e-ae8a-adc18f4242ae/anim/hover/large.mp4",
                     "multilanguage": false,
                     "required": true,
                     "minLength": 6,
-                    "maxLength": 30
+                    "maxLength": null
                 }
             ]
         }
