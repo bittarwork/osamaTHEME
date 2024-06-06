@@ -1,0 +1,11 @@
+<div class="video-container relative w-full overflow-hidden">
+	<lite-youtube videoid={{ component.video_bannar_new_url}} videostartat="5" autoload="true"></lite-youtube>
+	<div class="absolute top-0 left-0 w-full h-full bg-black bg-opacity-50"></div>
+	<div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center text-white z-10">
+		<h1 class="text-4xl font-bold">{{component.video_bannar_new_title}}</h1>
+		<p class="text-lg">{{component.video_bannar_new_paragragh}}</p>
+	</div>
+</div>
+{# <section>
+	<iframe width="560" height="349" src="https://www.youtube.com/embed/{{component.video_bannar_new_url}}?rel=0&hd=1" frameborder="0" allowfullscreen></iframe>
+</section> #}
