@@ -955,6 +955,13 @@
                     "maxLength": 30
                 }
             ]
+        },
+        {
+            "key": "68b8bb35-e34c-4e99-bb32-e0b444582cf9",
+            "title": "الشريط المتحرك",
+            "icon": "sicon-store",
+            "path": "home.marqueeLine",
+            "fields": []
         }
     ],
     "support_url": "https://salla.com/",
