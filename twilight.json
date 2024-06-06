@@ -902,59 +902,6 @@
                     ]
                 }
             ]
-        },
-        {
-            "key": "ba793a1b-0e57-4764-b696-0c9ba7062553",
-            "title": "بانر فيديو",
-            "icon": "sicon-store",
-            "path": "home.video-banner",
-            "fields": [
-                {
-                    "id": "video_banner_url",
-                    "type": "string",
-                    "format": "text",
-                    "label": "رابط الفيديو",
-                    "description": "عليك ادخال رابط الفيديو هنا من اجل عرضه",
-                    "labelHTML": null,
-                    "placeholder": "ادخل الرابط هنا",
-                    "icon": "sicon-format-text-alt",
-                    "value": "https://www.apple.com/105/media/us/apple-vision-pro/2024/6e1432b2-fe09-4113-a1af-f20987bcfeee/anim/experience-apps/large.mp4",
-                    "multilanguage": false,
-                    "required": true,
-                    "minLength": null,
-                    "maxLength": null
-                },
-                {
-                    "id": "video_banner_title",
-                    "type": "string",
-                    "format": "text",
-                    "label": "العنوان",
-                    "description": "ادخل العنوان الخاص بالبانر هنا",
-                    "labelHTML": null,
-                    "placeholder": "Placeholder text ..",
-                    "icon": "sicon-format-text-alt",
-                    "value": "عنوان البانر",
-                    "multilanguage": false,
-                    "required": false,
-                    "minLength": 6,
-                    "maxLength": 30
-                },
-                {
-                    "id": "video_banner_paragraph",
-                    "type": "string",
-                    "format": "text",
-                    "label": "النص داخل البانر",
-                    "description": "النص الداخلي المعروض ضمن البانر سوف يظهر هنا النص الداخلي المعروض ضمن......",
-                    "labelHTML": null,
-                    "placeholder": "Placeholder text ..",
-                    "icon": "sicon-format-text-alt",
-                    "value": "النص الداخلي",
-                    "multilanguage": false,
-                    "required": false,
-                    "minLength": 6,
-                    "maxLength": "75"
-                }
-            ]
         }
     ],
     "support_url": "https://salla.com/",
