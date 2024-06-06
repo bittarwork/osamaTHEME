@@ -262,7 +262,7 @@
             "type": "boolean",
             "format": "switch",
             "label": "تفعيل الروابط المهمة في قائمة اخر الصفحة",
-            "description": null,
+            "description": "في حال كنت لا تريد اظهار معلومات التواصل في اخر الصفحة ضمن الفوتر اضغط هنا",
             "labelHTML": null,
             "icon": "sicon-toggle-off",
             "value": true,
