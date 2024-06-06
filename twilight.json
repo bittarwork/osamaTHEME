@@ -921,7 +921,7 @@
                     "value": "العنوان",
                     "multilanguage": false,
                     "required": true,
-                    "minLength": 6,
+                    "minLength": "8",
                     "maxLength": "45"
                 },
                 {
@@ -936,21 +936,63 @@
                     "value": "النص الاضافي",
                     "multilanguage": false,
                     "required": false,
-                    "minLength": 6,
-                    "maxLength": 30
+                    "minLength": null,
+                    "maxLength": "75"
                 },
                 {
                     "id": "video_bannar_new_url",
                     "type": "string",
                     "format": "text",
-                    "label": "الفيديو على يوتيوب",
-                    "description": "اكتب الid الخاص بالفيديو",
+                    "label": "رابط الفيديو المرفوع",
+                    "description": "ضع رابط الفييديو المراد تضمنيه",
                     "labelHTML": null,
-                    "placeholder": "like : 5gO0xpY_Y3E...",
+                    "placeholder": "url",
                     "icon": "sicon-format-text-alt",
-                    "value": "5gO0xpY_Y3E",
+                    "value": "https://www.apple.com/105/media/us/apple-vision-pro/2024/6e1432b2-fe09-4113-a1af-f20987bcfeee/anim/experience-apps/large.mp4",
                     "multilanguage": false,
                     "required": true,
+                    "minLength": null,
+                    "maxLength": null
+                },
+                {
+                    "id": "video_bannar_new_isbtn",
+                    "type": "boolean",
+                    "format": "switch",
+                    "label": "قم بتفعيل الزر",
+                    "description": "ازا كنت تريد الغاء تفعيل الزر او تفعيله",
+                    "labelHTML": null,
+                    "icon": "sicon-toggle-off",
+                    "value": true,
+                    "selected": true,
+                    "required": false
+                },
+                {
+                    "id": "video_bannar_new_btn_content",
+                    "type": "string",
+                    "format": "text",
+                    "label": "محتوى الزر",
+                    "description": "اكتب ما تريده ان يظهر ضمن الزر",
+                    "labelHTML": null,
+                    "placeholder": "Placeholder text ..",
+                    "icon": "sicon-format-text-alt",
+                    "value": "اضغظ هنا",
+                    "multilanguage": false,
+                    "required": false,
+                    "minLength": 6,
+                    "maxLength": 30
+                },
+                {
+                    "id": "video_bannar_new_btn_url",
+                    "type": "string",
+                    "format": "text",
+                    "label": "الى اين ياخذ الزر",
+                    "description": null,
+                    "labelHTML": null,
+                    "placeholder": "Placeholder text ..",
+                    "icon": "sicon-format-text-alt",
+                    "value": null,
+                    "multilanguage": false,
+                    "required": false,
                     "minLength": 6,
                     "maxLength": 30
                 }
