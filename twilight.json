@@ -908,7 +908,53 @@
             "title": "بانر فيديو",
             "icon": "sicon-store",
             "path": "home.video-bannar-new",
-            "fields": []
+            "fields": [
+                {
+                    "id": "video_bannar_new_title",
+                    "type": "string",
+                    "format": "text",
+                    "label": "العنوان الخاص بالبانر",
+                    "description": "قم بادخال العنوان الذي تريد ان يظهر على البانر",
+                    "labelHTML": null,
+                    "placeholder": "العنوان",
+                    "icon": "sicon-format-text-alt",
+                    "value": "العنوان",
+                    "multilanguage": false,
+                    "required": true,
+                    "minLength": 6,
+                    "maxLength": "45"
+                },
+                {
+                    "id": "video_bannar_new_paragragh",
+                    "type": "string",
+                    "format": "text",
+                    "label": "النص الخاص تحت العنوان",
+                    "description": "اكتب النص الاضافي الذي سوف سظهر اسفل عنوان البنر",
+                    "labelHTML": null,
+                    "placeholder": "النص الاضافي",
+                    "icon": "sicon-format-text-alt",
+                    "value": "النص الاضافي",
+                    "multilanguage": false,
+                    "required": false,
+                    "minLength": 6,
+                    "maxLength": 30
+                },
+                {
+                    "id": "video_bannar_new_url",
+                    "type": "string",
+                    "format": "text",
+                    "label": "الفيديو على يوتيوب",
+                    "description": "اكتب الid الخاص بالفيديو",
+                    "labelHTML": null,
+                    "placeholder": "like : 5gO0xpY_Y3E...",
+                    "icon": "sicon-format-text-alt",
+                    "value": "5gO0xpY_Y3E",
+                    "multilanguage": false,
+                    "required": true,
+                    "minLength": 6,
+                    "maxLength": 30
+                }
+            ]
         }
     ],
     "support_url": "https://salla.com/",
