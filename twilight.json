@@ -902,59 +902,6 @@
                     ]
                 }
             ]
-        },
-        {
-            "key": "1b1698bd-3090-42ac-885a-848ceff54f13",
-            "title": "بانر مع فيديو",
-            "icon": "sicon-youtube2",
-            "path": "home.videoBanner",
-            "fields": [
-                {
-                    "id": "video_banar_title",
-                    "type": "string",
-                    "format": "text",
-                    "label": "عنوان البنر",
-                    "description": "قم بتعديل العنوان الخاص بالبنر هنا",
-                    "labelHTML": null,
-                    "placeholder": "العنوان سيظهر هنا",
-                    "icon": "sicon-format-text-alt",
-                    "value": "العنوان سيظهر هنا",
-                    "multilanguage": false,
-                    "required": false,
-                    "minLength": "8",
-                    "maxLength": "35"
-                },
-                {
-                    "id": "video_banar_paragraph",
-                    "type": "string",
-                    "format": "text",
-                    "label": "النص فوق الفيديو",
-                    "description": "اكتب النص التي تريد ان يظهر هنا",
-                    "labelHTML": null,
-                    "placeholder": "هنا عدل النص الخاص بك",
-                    "icon": "sicon-format-text-alt",
-                    "value": "هنا سيظهر النص الخاص بك",
-                    "multilanguage": false,
-                    "required": false,
-                    "minLength": 6,
-                    "maxLength": 30
-                },
-                {
-                    "id": "video_banar_url",
-                    "type": "string",
-                    "format": "text",
-                    "label": "id الفيديو على youtube",
-                    "description": "عليك اخذه من رابط الفيديو نفسه",
-                    "labelHTML": null,
-                    "placeholder": "D0UUdmX3drc",
-                    "icon": "sicon-format-text-alt",
-                    "value": "اكتب id الفيديو",
-                    "multilanguage": false,
-                    "required": false,
-                    "minLength": "15",
-                    "maxLength": null
-                }
-            ]
         }
     ],
     "support_url": "https://salla.com/",
