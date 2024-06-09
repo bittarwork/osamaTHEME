@@ -902,59 +902,6 @@
                     ]
                 }
             ]
-        },
-        {
-            "key": "50dbf188-5f00-4cc2-99aa-77bfdcd41f6e",
-            "title": "بانر عرض فيديو-كتابة",
-            "icon": "sicon-store",
-            "path": "home.view-banar",
-            "fields": [
-                {
-                    "id": "view_bannar_title",
-                    "type": "string",
-                    "format": "text",
-                    "label": "العنوان",
-                    "description": "قم بوضع العنوان الخا ص بهذا البانر",
-                    "labelHTML": null,
-                    "placeholder": "Placeholder text ..",
-                    "icon": "sicon-format-text-alt",
-                    "value": "عنوان الفقرة",
-                    "multilanguage": false,
-                    "required": false,
-                    "minLength": 6,
-                    "maxLength": 30
-                },
-                {
-                    "id": "view_bannar_paragraph",
-                    "type": "string",
-                    "format": "text",
-                    "label": "النص الاضافي",
-                    "description": "قم بوضع النص الاضافي هنا",
-                    "labelHTML": null,
-                    "placeholder": "Placeholder text ..",
-                    "icon": "sicon-format-text-alt",
-                    "value": "النص الاضافي النص الاضافي النص الاضافي النص الاضافي النص الاضافي النص الاضاالنص الاضافي النص الاضافي النص الاضافي النص الاضافي النص الاضافي النص الاضا",
-                    "multilanguage": false,
-                    "required": false,
-                    "minLength": 6,
-                    "maxLength": "150"
-                },
-                {
-                    "id": "view_bannar_video",
-                    "type": "string",
-                    "format": "text",
-                    "label": "رابط الفيديو",
-                    "description": "قم بادخال رابط الفيديو الذي تريد عرضه",
-                    "labelHTML": null,
-                    "placeholder": "Placeholder text ..",
-                    "icon": "sicon-format-text-alt",
-                    "value": "https://res.cloudinary.com/drepurqli/video/upload/v1711232096/1109966_video-game_challenge_gen-z_1920x1080_1_itiqyn.mp4",
-                    "multilanguage": false,
-                    "required": false,
-                    "minLength": 6,
-                    "maxLength": null
-                }
-            ]
         }
     ],
     "support_url": "https://salla.com/",
