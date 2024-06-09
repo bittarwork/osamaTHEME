@@ -1,1 +1,13 @@
-<h2>dfsf</h2>
+<div class="container">
+	<div class="grid grid-cols-2 md:grid-cols-2 gap-4 py-4 relative">
+		<div class="flex flex-col justify-center items-start md:items-start">
+			<h2 class="text-xl font-bold">{{component.wide_withvideo_title}}</h2>
+			<p class="text-gray-700">{{component.wide_withvideo_paragraph}}</p>
+		</div>
+		<div class="relative">
+			<img src="{{store.logo}}" class="absolute bottom-5 left-5 z-10 w-12 h-12 rounded-2xl" alt="logo">
+			<video class="rounded-2xl w-full h-auto" src="{{component.wide_withvideo_url}}" muted="" loop="" autoplay=""></video>
+			<div class="absolute inset-0 bg-black opacity-25 rounded-2xl"></div>
+		</div>
+	</div>
+</div>
