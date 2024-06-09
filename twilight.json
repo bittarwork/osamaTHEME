@@ -908,7 +908,53 @@
             "title": "بانر عريض مع فيديو",
             "icon": "sicon-store",
             "path": "home.wide-with-video",
-            "fields": []
+            "fields": [
+                {
+                    "id": "wide_withvideo_title",
+                    "type": "string",
+                    "format": "text",
+                    "label": "العنوان",
+                    "description": "قم بكتابة العنوان الخاص بالبانر",
+                    "labelHTML": null,
+                    "placeholder": "Placeholder text ..",
+                    "icon": "sicon-format-text-alt",
+                    "value": "العنوان الخاص",
+                    "multilanguage": false,
+                    "required": true,
+                    "minLength": 6,
+                    "maxLength": "45"
+                },
+                {
+                    "id": "wide_withvideo_paragraph",
+                    "type": "string",
+                    "format": "text",
+                    "label": "النص الاضافي",
+                    "description": "اكتب النص الافتراضي الخاص بك",
+                    "labelHTML": null,
+                    "placeholder": "Placeholder text ..",
+                    "icon": "sicon-format-text-alt",
+                    "value": "النص الافتراضي النص الافتراضي النص الافتراضي النص الافتراضي النص الافتراضي النص الافتراضي النص الافتراضي النص الافتراضي النص الافتراضي النص الافتراضي",
+                    "multilanguage": false,
+                    "required": true,
+                    "minLength": 6,
+                    "maxLength": "150"
+                },
+                {
+                    "id": "wide_withvideo_url",
+                    "type": "string",
+                    "format": "text",
+                    "label": "رابط الفيديو",
+                    "description": "ضع رابط الفيديو المطلوب عرضه",
+                    "labelHTML": null,
+                    "placeholder": "Placeholder text ..",
+                    "icon": "sicon-format-text-alt",
+                    "value": "https://res.cloudinary.com/drepurqli/video/upload/v1711232096/1109966_video-game_challenge_gen-z_1920x1080_1_itiqyn.mp4",
+                    "multilanguage": false,
+                    "required": false,
+                    "minLength": 6,
+                    "maxLength": "5000"
+                }
+            ]
         }
     ],
     "support_url": "https://salla.com/",
