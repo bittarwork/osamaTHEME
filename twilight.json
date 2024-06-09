@@ -920,9 +920,9 @@
                     "icon": "sicon-format-text-alt",
                     "value": null,
                     "multilanguage": false,
-                    "required": false,
+                    "required": true,
                     "minLength": 6,
-                    "maxLength": 30
+                    "maxLength": "45"
                 },
                 {
                     "id": "wide_with_viedeo_paragraph",
@@ -935,9 +935,9 @@
                     "icon": "sicon-format-text-alt",
                     "value": null,
                     "multilanguage": false,
-                    "required": false,
+                    "required": true,
                     "minLength": 6,
-                    "maxLength": 30
+                    "maxLength": "150"
                 },
                 {
                     "id": "wide_with_viedeo_url",
@@ -950,9 +950,9 @@
                     "icon": "sicon-format-text-alt",
                     "value": null,
                     "multilanguage": false,
-                    "required": false,
+                    "required": true,
                     "minLength": 6,
-                    "maxLength": 30
+                    "maxLength": null
                 }
             ]
         }
