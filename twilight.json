@@ -920,7 +920,7 @@
                     "icon": "sicon-format-text-alt",
                     "value": null,
                     "multilanguage": false,
-                    "required": true,
+                    "required": false,
                     "minLength": 6,
                     "maxLength": "45"
                 },
@@ -935,7 +935,7 @@
                     "icon": "sicon-format-text-alt",
                     "value": null,
                     "multilanguage": false,
-                    "required": true,
+                    "required": false,
                     "minLength": 6,
                     "maxLength": "150"
                 },
@@ -950,7 +950,7 @@
                     "icon": "sicon-format-text-alt",
                     "value": null,
                     "multilanguage": false,
-                    "required": true,
+                    "required": false,
                     "minLength": 6,
                     "maxLength": null
                 }
