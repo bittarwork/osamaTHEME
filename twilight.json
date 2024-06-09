@@ -902,6 +902,13 @@
                     ]
                 }
             ]
+        },
+        {
+            "key": "7b75c6da-bc39-45a5-975b-d53106cf38bf",
+            "title": "بانر عريض مع فيديو",
+            "icon": "sicon-store",
+            "path": "home.wide-with-video",
+            "fields": []
         }
     ],
     "support_url": "https://salla.com/",
