@@ -953,6 +953,18 @@
                     "required": false,
                     "minLength": 6,
                     "maxLength": "5000"
+                },
+                {
+                    "id": "wide_withvideo_video_effect",
+                    "type": "boolean",
+                    "format": "switch",
+                    "label": "التأثيرات الخاصة بالفيديو",
+                    "description": "ازا اردت ازالة لوغو الموقع والتاثيرا البصرية على الفيديو",
+                    "labelHTML": null,
+                    "icon": "sicon-toggle-off",
+                    "value": true,
+                    "selected": true,
+                    "required": false
                 }
             ]
         }
