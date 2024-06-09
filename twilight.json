@@ -902,59 +902,6 @@
                     ]
                 }
             ]
-        },
-        {
-            "key": "7b75c6da-bc39-45a5-975b-d53106cf38bf",
-            "title": "بانر عريض مع فيديو",
-            "icon": "sicon-store",
-            "path": "home.wide-with-video",
-            "fields": [
-                {
-                    "id": "wide_with_viedeo_title",
-                    "type": "string",
-                    "format": "text",
-                    "label": "عنوان",
-                    "description": null,
-                    "labelHTML": null,
-                    "placeholder": "Placeholder text ..",
-                    "icon": "sicon-format-text-alt",
-                    "value": null,
-                    "multilanguage": false,
-                    "required": false,
-                    "minLength": 6,
-                    "maxLength": "45"
-                },
-                {
-                    "id": "wide_with_viedeo_paragraph",
-                    "type": "string",
-                    "format": "text",
-                    "label": "نص تحت العنوان",
-                    "description": null,
-                    "labelHTML": null,
-                    "placeholder": "Placeholder text ..",
-                    "icon": "sicon-format-text-alt",
-                    "value": null,
-                    "multilanguage": false,
-                    "required": false,
-                    "minLength": 6,
-                    "maxLength": "150"
-                },
-                {
-                    "id": "wide_with_viedeo_url",
-                    "type": "string",
-                    "format": "text",
-                    "label": "رابط الفيديو",
-                    "description": null,
-                    "labelHTML": null,
-                    "placeholder": "Placeholder text ..",
-                    "icon": "sicon-format-text-alt",
-                    "value": null,
-                    "multilanguage": false,
-                    "required": false,
-                    "minLength": 6,
-                    "maxLength": null
-                }
-            ]
         }
     ],
     "support_url": "https://salla.com/",
