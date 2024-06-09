@@ -902,59 +902,6 @@
                     ]
                 }
             ]
-        },
-        {
-            "key": "438e01a6-7b43-4934-83df-30bb5376f1e6",
-            "title": "بانر فيديو",
-            "icon": "sicon-store",
-            "path": "home.videon-banner",
-            "fields": [
-                {
-                    "id": "video_banner_title",
-                    "type": "string",
-                    "format": "text",
-                    "label": "العنوان",
-                    "description": "ادخل العنوان الخاص بالبنر هنا",
-                    "labelHTML": null,
-                    "placeholder": "Placeholder text ..",
-                    "icon": "sicon-format-text-alt",
-                    "value": "العنوان الخاص بالبانر",
-                    "multilanguage": false,
-                    "required": false,
-                    "minLength": 6,
-                    "maxLength": 30
-                },
-                {
-                    "id": "video_banner_paragraph",
-                    "type": "string",
-                    "format": "text",
-                    "label": "الكتابة تحت العنوان",
-                    "description": "النص المتضمن تحت العنوان ضمن بانر الفيديو من هنا",
-                    "labelHTML": null,
-                    "placeholder": "Placeholder text ..",
-                    "icon": "sicon-format-text-alt",
-                    "value": "النص المتضمن تحت العنوان",
-                    "multilanguage": false,
-                    "required": false,
-                    "minLength": 6,
-                    "maxLength": null
-                },
-                {
-                    "id": "video_banner_url",
-                    "type": "string",
-                    "format": "text",
-                    "label": "رابط الفيديو",
-                    "description": "ادخل رابط الفيديو هنا",
-                    "labelHTML": null,
-                    "placeholder": "Placeholder text ..",
-                    "icon": "sicon-format-text-alt",
-                    "value": "https://www.apple.com/105/media/ww/ipad-pro/2022/08087f4b-7539-4b1e-ae8a-adc18f4242ae/anim/hover/large.mp4",
-                    "multilanguage": false,
-                    "required": true,
-                    "minLength": 6,
-                    "maxLength": null
-                }
-            ]
         }
     ],
     "support_url": "https://salla.com/",
