@@ -908,7 +908,53 @@
             "title": "بانر عريض مع فيديو",
             "icon": "sicon-store",
             "path": "home.wide-with-video",
-            "fields": []
+            "fields": [
+                {
+                    "id": "wide_with_viedeo_title",
+                    "type": "string",
+                    "format": "text",
+                    "label": "عنوان",
+                    "description": null,
+                    "labelHTML": null,
+                    "placeholder": "Placeholder text ..",
+                    "icon": "sicon-format-text-alt",
+                    "value": null,
+                    "multilanguage": false,
+                    "required": false,
+                    "minLength": 6,
+                    "maxLength": 30
+                },
+                {
+                    "id": "wide_with_viedeo_paragraph",
+                    "type": "string",
+                    "format": "text",
+                    "label": "نص تحت العنوان",
+                    "description": null,
+                    "labelHTML": null,
+                    "placeholder": "Placeholder text ..",
+                    "icon": "sicon-format-text-alt",
+                    "value": null,
+                    "multilanguage": false,
+                    "required": false,
+                    "minLength": 6,
+                    "maxLength": 30
+                },
+                {
+                    "id": "wide_with_viedeo_url",
+                    "type": "string",
+                    "format": "text",
+                    "label": "رابط الفيديو",
+                    "description": null,
+                    "labelHTML": null,
+                    "placeholder": "Placeholder text ..",
+                    "icon": "sicon-format-text-alt",
+                    "value": null,
+                    "multilanguage": false,
+                    "required": false,
+                    "minLength": 6,
+                    "maxLength": 30
+                }
+            ]
         }
     ],
     "support_url": "https://salla.com/",
