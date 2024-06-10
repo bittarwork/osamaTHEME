@@ -1009,6 +1009,21 @@
                     "icon": "sicon-format-fill",
                     "value": "#4e057f",
                     "required": false
+                },
+                {
+                    "id": "count_down_sales_percentage",
+                    "type": "string",
+                    "format": "text",
+                    "label": "قيمة الحسومات",
+                    "description": null,
+                    "labelHTML": null,
+                    "placeholder": "Placeholder text ..",
+                    "icon": "sicon-format-text-alt",
+                    "value": null,
+                    "multilanguage": false,
+                    "required": false,
+                    "minLength": 6,
+                    "maxLength": 30
                 }
             ]
         }
