@@ -967,6 +967,13 @@
                     "required": false
                 }
             ]
+        },
+        {
+            "key": "51162a75-50bb-495c-89e5-13ed9b76fd2e",
+            "title": "كوبون حسم مع مؤقت",
+            "icon": "sicon-store",
+            "path": "home.sale-with-countdown",
+            "fields": []
         }
     ],
     "support_url": "https://salla.com/",
